@@ -5,7 +5,7 @@ const resMessage = require('../../modules/utils/responseMessage');
 const statusCode = require('../../modules/utils/statusCode');
 const utils = require('../../modules/utils/utils');
 const authUtils = require('../../modules/utils/authUtils');
-const Notification = require('../../models/notificationSchema'); //코드에 쓸 스키마 가져오기
+const Notification = require('../../modules/notificationSchema'); //코드에 쓸 스키마 가져오기
 const cron = require('node-cron'); //스케쥴러
 const moment = require('moment');
 
