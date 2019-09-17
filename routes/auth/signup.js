@@ -7,7 +7,7 @@ const statusCode = require('../../modules/utils/statusCode');
 const db = require('../../modules/pool');
 const encrytion = require('../../modules/encrytion/encrytionModule');
 const crypto = require('crypto-promise');
-const Notification = require('../../models/notificationSchema');
+const Notification = require('../../modules/notificationSchema');
 
 //회원가입
 router.post('/', async (req, res) => {
